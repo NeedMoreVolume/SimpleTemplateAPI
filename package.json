@@ -1,0 +1,27 @@
+{
+  "name": "simpletemplateapi",
+  "version": "1.0.0",
+  "description": "Template API for CRUD operations on a mongo DB.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SimpleTemplateAPI"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "CRUD",
+    "ExpressJS"
+  ],
+  "author": "Daniel Pivalizza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {}
+}
