@@ -2,5 +2,5 @@
 
 module.exports = {
 	//path to your Database goes below.
-	uri : "mongodb://<user>.<pass>.url"
+	uri : "mongodb://localhost:27017/simpletemplateapi"
 }

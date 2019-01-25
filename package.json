@@ -2,9 +2,9 @@
   "name": "simpletemplateapi",
   "version": "1.0.0",
   "description": "Template API for CRUD operations on a mongo DB.",
-  "main": "server.js",
+  "main": "./bin/www",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,15 @@
   "author": "Daniel Pivalizza",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
-    "mongodb": "^3.0.10"
+    "math": "0.0.3",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3"
   },
   "devDependencies": {}
 }
